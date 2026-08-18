@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Preview — Tessa Strickland (with lace)</title>
+<style>
+:root{--red:#8a2020;--cream:#f3ede0;--cream-dim:#e6ddc9;--ink:#1a1815;--black:#141210;--serif-display:'Anton', sans-serif;--nav-font:'Oswald', sans-serif;--body-font:'Inter', sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--body-font);background:var(--cream);color:var(--ink);}
+.navbar{background:var(--red);display:flex;justify-content:space-around;padding:18px 24px;color:var(--cream);}
+.navbar a{color:var(--cream);text-decoration:none;font-family:var(--nav-font);font-weight:600}
+.hero{position:relative;min-height:58vh;display:flex;align-items:flex-end;padding:0 5vw 0;overflow:visible}
+.hero.texture-dark{background-color:var(--black);background-image:url('assets/lace.png');background-repeat:repeat;background-position:center;background-size:cover}
+.hero-name{font-family:var(--serif-display);color:var(--cream);font-size:6rem;line-height:0.82;transform:translateY(38%);padding-left:6vw}
+.hero-red{background:var(--red);padding:9rem 5vw 3.5rem;text-align:center}
+.hero-tagline{font-family:var(--nav-font);color:var(--cream);font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:1rem}
+.btn{display:inline-block;background:var(--black);color:var(--cream);padding:12px 28px;border-radius:999px;text-transform:uppercase;font-family:var(--nav-font);font-weight:600}
+footer{padding:3.5rem 1rem;color:#e9e2d2;text-align:center}
+</style>
+</head>
+<body>
+<nav class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Experience</a>
+  <a href="#">Projects</a>
+  <a href="#">Contact</a>
+</nav>
+<header>
+  <div class="hero texture-dark">
+    <h1 class="hero-name">Tessa Strickland</h1>
+  </div>
+  <div class="hero-red">
+    <p class="hero-tagline">Brand-Focused · Insight-Driven · Story-First · Culture-Curious · Detail-Obsessed</p>
+    <a class="btn" href="#">About</a>
+  </div>
+</header>
+<footer>
+  <div>[ your.email@example.com ]</div>
+  <div style="margin-top:8px"><a href="#">LinkedIn</a> | <a href="#">Resume</a></div>
+  <div style="margin-top:12px;font-size:0.85rem;color:#8a8474">© 2026 Tessa Strickland</div>
+</footer>
+</body>
+</html>
